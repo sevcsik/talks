@@ -1,0 +1,19 @@
+dist/talk.html: talk.md dist dist/title $(addprefix dist/, $(wildcard images/*))
+	# Substitute title to template
+	cp ../common/remarkjs.tpl dist/talk.html
+	sed -i dist/talk.html -e "/\$${title}/r dist/title" -e "//d"
+	sed -i dist/talk.html -e "/\$${body}/r talk.md" -e "//d"
+dist/title: talk.md
+	# Extract title from markdown
+	grep "^# " talk.md | sed -e "s/^# //" > dist/title
+dist/images/%: images/%
+	# Copy image $<
+	mkdir -p dist/images
+	cp $< $@
+dist: ../common/remarkjs.tpl ../common/remark-latest.min.js
+	# Prepare dist directory
+	mkdir dist
+	cp ../common/remark-latest.min.js dist
+clean:
+	rm -r dist || nop
+
