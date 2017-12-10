@@ -1,0 +1,31 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="rxjs-demo-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <p>The time is {{hours}}:{{minutes}}:{{seconds}}</p>
+  </template>
+
+  <script type="module">
+    import time$ from '../services/time'
+    /**
+     * @customElement
+     * @polymer
+     */
+    class RxjsDemoApp extends Polymer.Element {
+      static get is() { return 'rxjs-demo-app'; }
+      constructor() {
+      	
+	time$.subscribe(seconds => this.seconds = seconds)
+	time$.subscribe(seconds => this.minutes = seconds)
+	time$.subscribe(seconds => this.hours = seconds)
+      }
+    }
+
+    window.customElements.define(RxjsDemoApp.is, RxjsDemoApp)
+  </script>
+</dom-module>
