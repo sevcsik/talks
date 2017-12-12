@@ -1,0 +1,28 @@
+{
+  "name": "rxdemo",
+  "version": "1.0.0",
+  "description": "Demo app for ITrend talk on",
+  "main": "-",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sevcsik/talks.git"
+  },
+  "author": "Andras Sevcsik <sevcsik@sevdev.hu>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sevcsik/talks/issues"
+  },
+  "homepage": "https://github.com/sevcsik/talks#readme",
+  "dependencies": {
+    "@polymer/polymer": "^2.3.1",
+    "@webcomponents/webcomponentsjs": "^1.0.20",
+    "rx-http-request": "^1.2.0",
+    "rxjs": "^5.5.5"
+  }
+}

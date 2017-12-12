@@ -1,0 +1,62 @@
+<link rel="import" href="../../node_modules/@polymer/polymer/polymer-element.html">
+
+
+<dom-module id="rxdemo-clock">
+	<template>
+		<style>
+			:host {
+				display: inline-block;
+				float: right;
+				font-size: 10px;
+				text-align: right;
+			}
+
+			:host(.max) {
+				display: block;
+				float: none;
+				padding-top: 30%;
+				font-size: 32px;
+				text-align: center;
+			}
+		</style>
+		<div><a href="#clock">{{hours}}:{{minutes}}:{{seconds}}</a></div>
+	</template>
+
+	<script type="module">
+		import { time$ } from 'src/services/time.js'
+		import { state$ } from 'src/services/state.js'
+
+		const formatTime$ = m => {
+			const MODULI = [ 60, 60, 60, 24 ]
+			return time$.map(t => Math.floor(t / Math.pow(MODULI[m], m)) % MODULI[m + 1])
+		}
+
+		/**
+		 * @customElement
+		 * @polymer
+		 */
+		class RxdemoClock extends Polymer.Element {
+			static get is() { return 'rxdemo-clock' }
+
+			constructor() {
+				super();
+
+				this.classList.add('in-header')
+
+				state$
+					.subscribe(({ name }) => {
+						if (name === 'clock') this.classList.add('max')
+						else this.classList.remove('max')
+					})
+
+				this.hours = this.minutes = this.seconds = null;
+
+				formatTime$(0).subscribe(t => this.seconds = t)
+				formatTime$(1).subscribe(t => this.minutes = t)
+				formatTime$(2).subscribe(t => this.hours = t)
+			}
+		}
+
+		window.customElements.define(RxdemoClock.is, RxdemoClock)
+	</script>
+</dom-module>

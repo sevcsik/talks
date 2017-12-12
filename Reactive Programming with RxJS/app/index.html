@@ -10,11 +10,13 @@
 		<!-- See https://goo.gl/OOhYW5 -->
 		<link rel="manifest" href="/manifest.json">
 
-		<script src="bower_components/webcomponentsjs/webcomponents-loader.js"></script>
-		<script src="bower_components/rxjs/dist/rx.all.min.js"></script>
-		<link rel="import" href="/src/rxjs-demo-app/rxjs-demo-app.html">
+		<script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+		<link rel="import" href="src/components/rxdemo-clock.html">
+		<link rel="import" href="src/components/rxdemo-tasklist.html">
 	</head>
 	<body>
-		<rxjs-demo-app></rxjs-demo-app>
+		<a href="#tasks">Tasks</a>
+		<rxdemo-clock></rxdemo-clock>
+		<rxdemo-tasklist></rxdemo-tasklist>
 	</body>
 </html>

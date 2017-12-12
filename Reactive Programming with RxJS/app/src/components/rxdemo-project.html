@@ -1,0 +1,41 @@
+<link rel="import" href="../../node_modules/@polymer/polymer/polymer-element.html">
+<link rel="import" href="../../node_modules/@polymer/polymer/lib/elements/dom-repeat.html">
+
+<dom-module id="rxdemo-project">
+	<template>
+		<style>
+		</style>
+		[[name]]
+		<ul>
+			<template is="dom-repeat" items="[[tasks]]">
+				<li>[[item.name]]</li>
+			</template>
+		</ul>
+	</template>
+
+	<script type="module">
+		import { tasksByProject$ } from 'src/services/tasks.js'
+
+		/**
+		 * @customElement
+		 * @polymer
+		 */
+		class RxdemoProject extends Polymer.Element {
+			static get is() { return 'rxdemo-project' }
+			static get properties() { return { content: Object } }
+
+			constructor() {
+				super()
+				this.tasks = []
+				this.name = null
+			}
+
+			connectedCallback() {
+				this.name = this.content.project.name
+				this.content.tasks$.subscribe(tasks => { this.tasks = tasks })
+			}
+		}
+
+		window.customElements.define(RxdemoProject.is, RxdemoProject)
+	</script>
+</dom-module>
