@@ -5,6 +5,9 @@
 <dom-module id="rxdemo-tasklist">
 	<template>
 		<style>
+			:host(.hidden) {
+				display: none;
+			}
 		</style>
 		<h1>Tasks</h1>
 		<ul>
@@ -17,6 +20,7 @@
 	</template>
 
 	<script type="module">
+		import { activeScreen$ } from 'src/services/state.js'
 		import { projects$ } from 'src/services/tasks.js'
 
 		 /*
@@ -30,6 +34,12 @@
 				super()
 				this.projects = []
 				projects$.subscribe(projects => { this.projects = projects })
+
+				activeScreen$
+					.subscribe((screen) => {
+						if (screen === 'tasks') this.classList.remove('hidden')
+						else this.classList.add('hidden')
+					})
 			}
 		}
 

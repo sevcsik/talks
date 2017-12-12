@@ -1,4 +1,5 @@
 <link rel="import" href="../../node_modules/@polymer/polymer/polymer-element.html">
+<link rel="import" href="../../node_modules/@polymer/polymer/lib/elements/dom-if.html">
 
 
 <dom-module id="rxdemo-clock">
@@ -11,20 +12,28 @@
 				text-align: right;
 			}
 
-			:host(.max) {
+			:host(.active) {
 				display: block;
 				float: none;
-				padding-top: 30%;
 				font-size: 32px;
 				text-align: center;
 			}
 		</style>
-		<div><a href="#clock">{{hours}}:{{minutes}}:{{seconds}}</a></div>
+		<div>
+			<template is="dom-if" if="[[showTask]]">
+				<p>[[activeTask.name]]</p>
+			</template>
+			<a href="#clock">{{hours}}:{{minutes}}:{{seconds}}</a>
+		</div>
 	</template>
 
 	<script type="module">
 		import { time$ } from 'src/services/time.js'
-		import { state$ } from 'src/services/state.js'
+		import { activeScreen$
+		       , activeTask$
+		       } from 'src/services/state.js'
+
+		import { Observable } from 'node_modules/rxjs/bundles/Rx.js'
 
 		const formatTime$ = m => {
 			const MODULI = [ 60, 60, 60, 24 ]
@@ -41,15 +50,28 @@
 			constructor() {
 				super();
 
+				this.hours = this.minutes = this.seconds = null
+				this.activeTask = null
+				this.showTask = null
+
 				this.classList.add('in-header')
 
-				state$
-					.subscribe(({ name }) => {
-						if (name === 'clock') this.classList.add('max')
-						else this.classList.remove('max')
-					})
+				const isActive$ = activeScreen$
+					.map(screen => screen === 'clock')
+				
+				isActive$.subscribe(active => { 
+					this.active = active
+					if (active) this.classList.add('active')
+					else this.classList.remove('active')
+				})
 
-				this.hours = this.minutes = this.seconds = null;
+				activeTask$
+					.subscribe(t => this.activeTask = t)
+
+				Observable.combineLatest(isActive$, activeTask$)
+					.do(console.log)
+					.map(([isActive, activeTask]) => isActive && activeTask)
+					.subscribe(showTask => this.showTask = showTask)
 
 				formatTime$(0).subscribe(t => this.seconds = t)
 				formatTime$(1).subscribe(t => this.minutes = t)
