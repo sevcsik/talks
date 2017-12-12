@@ -16,7 +16,7 @@
 	<script type="module">
 		import { tasksByProject$ } from 'src/services/tasks.js'
 		import { state$
-		       , attachTaskSelectStream
+		       , bindTaskSelectStream
 		       } from 'src/services/state.js'
 
 		import { Observable } from 'node_modules/rxjs/bundles/Rx.js'
@@ -43,7 +43,7 @@
 					.filter(e => e.originalTarget.task)
 					.pluck('originalTarget', 'task')
 
-				attachTaskSelectStream(task$)
+				bindTaskSelectStream(task$)
 			}
 		}
 

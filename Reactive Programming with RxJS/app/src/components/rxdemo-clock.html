@@ -8,7 +8,6 @@
 			:host {
 				display: inline-block;
 				float: right;
-				font-size: 10px;
 				text-align: right;
 			}
 
@@ -22,8 +21,14 @@
 		<div>
 			<template is="dom-if" if="[[showTask]]">
 				<p>[[activeTask.name]]</p>
+				<p>
+					<a href="javascript:void(0)" start>Start</a>
+					<a href="javascript:void(0)" stop>Stop</a>
+				</p>
 			</template>
-			<a href="#clock">{{hours}}:{{minutes}}:{{seconds}}</a>
+			<template is="dom-if" if="[[running]]">
+				<a href="#clock">{{hours}}:{{minutes}}:{{seconds}}</a>
+			</template>
 		</div>
 	</template>
 
@@ -31,14 +36,14 @@
 		import { time$ } from 'src/services/time.js'
 		import { activeScreen$
 		       , activeTask$
+			   , activeTimer$
+		       , bindTimerStartStream
+		       , bindTimerStopStream
 		       } from 'src/services/state.js'
 
 		import { Observable } from 'node_modules/rxjs/bundles/Rx.js'
 
-		const formatTime$ = m => {
-			const MODULI = [ 60, 60, 60, 24 ]
-			return time$.map(t => Math.floor(t / Math.pow(MODULI[m], m)) % MODULI[m + 1])
-		}
+		const formatTime = (t, m) => Math.floor(t / Math.pow(60, m)) % 60
 
 		/**
 		 * @customElement
@@ -53,8 +58,7 @@
 				this.hours = this.minutes = this.seconds = null
 				this.activeTask = null
 				this.showTask = null
-
-				this.classList.add('in-header')
+				this.running = null
 
 				const isActive$ = activeScreen$
 					.map(screen => screen === 'clock')
@@ -69,13 +73,25 @@
 					.subscribe(t => this.activeTask = t)
 
 				Observable.combineLatest(isActive$, activeTask$)
-					.do(console.log)
 					.map(([isActive, activeTask]) => isActive && activeTask)
 					.subscribe(showTask => this.showTask = showTask)
 
-				formatTime$(0).subscribe(t => this.seconds = t)
-				formatTime$(1).subscribe(t => this.minutes = t)
-				formatTime$(2).subscribe(t => this.hours = t)
+				const clicks$ = Observable.fromEvent(this, 'click')
+
+				bindTimerStartStream(clicks$
+					.filter(e => e.originalTarget.hasAttribute('start')))
+
+				bindTimerStopStream(clicks$
+					.filter(e => e.originalTarget.hasAttribute('stop')))
+
+				time$.combineLatest(activeTimer$)
+					.map(([t, activeTimer]) => ([t - activeTimer.since, activeTimer.running]))
+					.subscribe(([dt, running]) => {
+						this.running = running
+						this.seconds = formatTime(dt, 0)
+						this.minutes = formatTime(dt, 1)
+						this.hours = formatTime(dt, 2)
+					})
 			}
 		}
 
