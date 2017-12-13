@@ -5,6 +5,8 @@
 *Andras Sevcsik <br> <andras.sevcsik@finastra.com> <br>* 
 *Senior Software Engineer <br>*
 *Finastra Digital*
+*Web: https://sevdev.hu* <br>
+*Github, Twitter, Messenger, LinkedIn, IRCNet, Freenode: sevcsik* <br>
 
 ---
 
@@ -126,7 +128,14 @@ export Observable.from(hashSubject$)
 
 ## That's all folks!
 
-Links:
-	- Reactive Extensions: http://reactivex.io/
-	- RxJS API docs: http://reactivex.io/rxjs/
-	- Presentation and the demo app: https://github.com/sevcsik/talks
+### Links
+Reactive Extensions: http://reactivex.io/ <br>
+RxJS API docs: http://reactivex.io/rxjs/ <br>
+Presentation and the demo app: https://github.com/sevcsik/talks <br>
+
+### Contact
+Andras Sevcsik <br> <andras.sevcsik@finastra.com> <br>
+Senior Software Engineer <br>
+Finastra Digital <br>
+Web: https://sevdev.hu <br>
+Github, Twitter, Messenger, LinkedIn, IRCNet, Freenode: sevcsik <br>
