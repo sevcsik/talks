@@ -5,7 +5,7 @@ import { time$
        , INTERVAL
        } from 'src/services/time.js'
 
-import { Observable } from 'node_modules/rxjs/Rx.js'
+import { Observable } from 'node_modules/rxjs/bundles/Rx.js'
 import { RxHttpRequest } from 'node_modules/rx-http-request/browser.js'
 
 const API_ROOT = 'http://localhost:5984/rxdemo'
@@ -18,6 +18,10 @@ export const logEntries$ = time$
 		 , timestamp: time
 		 , duration: INTERVAL
 		 }))
+
+export const getTotalTimeByTask$ = task => logEntries$
+	.filter(logEntry => task._id === logEntry.task._id)
+	.scan((totalTime, logEntry) => totalTime + logEntry.duration, 0)
 
 logEntries$
 	.map(({ task

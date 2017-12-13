@@ -1,3 +1,5 @@
+<link rel="import" href="rxdemo-task.html">
+
 <link rel="import" href="../../node_modules/@polymer/polymer/polymer-element.html">
 <link rel="import" href="../../node_modules/@polymer/polymer/lib/elements/dom-repeat.html">
 
@@ -8,7 +10,7 @@
 		[[name]]
 		<ul>
 			<template is="dom-repeat" items="[[tasks]]">
-				<li><a href="#clock" task="[[item]]">[[item.name]]</a></li>
+				<rxdemo-task content=[[item]]></rxdemo-task>
 			</template>
 		</ul>
 	</template>
@@ -18,8 +20,6 @@
 		import { state$
 		       , bindTaskSelectStream
 		       } from 'src/services/state.js'
-
-		import { Observable } from 'node_modules/rxjs/bundles/Rx.js'
 
 		/**
 		 * @customElement
@@ -39,11 +39,6 @@
 				this.name = this.content.project.name
 				this.content.tasks$.subscribe(tasks => { this.tasks = tasks })
 
-				const task$ = Observable.fromEvent(this, 'click')
-					.filter(e => e.originalTarget.task)
-					.pluck('originalTarget', 'task')
-
-				bindTaskSelectStream(task$)
 			}
 		}
 

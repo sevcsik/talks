@@ -1,0 +1,46 @@
+<link rel="import" href="../../node_modules/@polymer/polymer/polymer-element.html">
+<link rel="import" href="../../node_modules/@polymer/polymer/lib/elements/dom-if.html">
+
+<dom-module id="rxdemo-task">
+	<template>
+		<li>
+			<a href="#clock">[[name]]</a>
+			<template is="dom-if" if="time">
+				<span>[[time]]s</span>
+			</template>
+		</li>
+	</template>
+	<script type="module">
+		import { getTotalTimeByTask$ } from 'src/services/log.js'
+		import { bindTaskSelectStream } from 'src/services/state.js'
+
+		import { Observable } from 'node_modules/rxjs/bundles/Rx.js'
+
+		class RxdemoTask extends Polymer.Element {
+			static get is() { return 'rxdemo-task' }
+			static get properties() { return { content: Object } }
+
+			constructor() {
+				super()
+
+				this.time = 0
+				this.content = null
+				this.name = null
+			}
+
+			connectedCallback() {
+				this.name = this.content.name
+
+				getTotalTimeByTask$(this.content)
+					.subscribe(time => { this.time = time / 1000 })
+
+				const select$ = Observable.fromEvent(this, 'click')
+					.map(() => this.content)
+
+				bindTaskSelectStream(select$)
+			}
+		}
+
+		window.customElements.define(RxdemoTask.is, RxdemoTask)
+	</script>
+</dom-module>
