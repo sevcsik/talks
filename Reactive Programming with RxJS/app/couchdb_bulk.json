@@ -1,0 +1,1427 @@
+{ "docs": [
+  {
+    "_id": "1513162216.029_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162216.029,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162217.029_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162217.029,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162218.031_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162218.031,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162219.033_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162219.033,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162220.034_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162220.034,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162221.036_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162221.036,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162222.038_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162222.038,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162223.039_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162223.039,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162224.043_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162224.043,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162225.045_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162225.045,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162226.047_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162226.047,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162227.048_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162227.048,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162228.049_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162228.049,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162229.052_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162229.052,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162230.055_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162230.055,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162231.058_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162231.058,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162232.06_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162232.06,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162233.062_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162233.062,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162234.064_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162234.064,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162235.065_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162235.065,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162236.068_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162236.068,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513162237.072_28ea7099d2db1c9a0a175cacdd0024bf}",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513162237.072,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163731.949_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163731.949,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163732.95_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163732.95,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163733.951_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163733.951,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163734.953_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163734.953,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163735.954_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163735.954,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163736.955_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163736.955,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163737.957_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163737.957,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163738.958_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163738.958,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163739.961_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163739.961,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163740.965_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163740.965,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163741.968_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163741.968,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163742.97_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163742.97,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163743.972_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163743.972,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163744.973_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163744.973,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163745.976_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163745.976,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163746.979_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163746.979,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163747.981_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163747.981,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163748.984_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163748.984,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163749.986_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163749.986,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163750.989_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163750.989,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163751.991_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163751.991,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163752.993_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163752.993,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163753.996_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163753.996,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163754.999_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163754.999,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163756.001_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163756.001,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163757.004_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163757.004,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163758.006_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163758.006,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163759.007_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163759.007,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163760.011_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163760.011,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163761.015_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163761.015,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163762.017_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163762.017,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163763.019_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163763.019,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163764.021_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163764.021,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163764.021_28ea7099d2db1c9a0a175cacdd003243",
+
+    "task": "28ea7099d2db1c9a0a175cacdd003243",
+    "timestamp": 1513163764.021,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163765.022_28ea7099d2db1c9a0a175cacdd003243",
+
+    "task": "28ea7099d2db1c9a0a175cacdd003243",
+    "timestamp": 1513163765.022,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163766.023_28ea7099d2db1c9a0a175cacdd003243",
+
+    "task": "28ea7099d2db1c9a0a175cacdd003243",
+    "timestamp": 1513163766.023,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163767.026_28ea7099d2db1c9a0a175cacdd003243",
+
+    "task": "28ea7099d2db1c9a0a175cacdd003243",
+    "timestamp": 1513163767.026,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163768.029_28ea7099d2db1c9a0a175cacdd003243",
+
+    "task": "28ea7099d2db1c9a0a175cacdd003243",
+    "timestamp": 1513163768.029,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163769.031_28ea7099d2db1c9a0a175cacdd003243",
+
+    "task": "28ea7099d2db1c9a0a175cacdd003243",
+    "timestamp": 1513163769.031,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163770.033_28ea7099d2db1c9a0a175cacdd003243",
+
+    "task": "28ea7099d2db1c9a0a175cacdd003243",
+    "timestamp": 1513163770.033,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163771.034_28ea7099d2db1c9a0a175cacdd003243",
+
+    "task": "28ea7099d2db1c9a0a175cacdd003243",
+    "timestamp": 1513163771.034,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163772.036_28ea7099d2db1c9a0a175cacdd003243",
+
+    "task": "28ea7099d2db1c9a0a175cacdd003243",
+    "timestamp": 1513163772.036,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163773.041_28ea7099d2db1c9a0a175cacdd003243",
+
+    "task": "28ea7099d2db1c9a0a175cacdd003243",
+    "timestamp": 1513163773.041,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163774.044_28ea7099d2db1c9a0a175cacdd003243",
+
+    "task": "28ea7099d2db1c9a0a175cacdd003243",
+    "timestamp": 1513163774.044,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163775.046_28ea7099d2db1c9a0a175cacdd003243",
+
+    "task": "28ea7099d2db1c9a0a175cacdd003243",
+    "timestamp": 1513163775.046,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163802.668_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163802.668,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163803.669_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163803.669,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163804.67_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163804.67,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163805.673_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163805.673,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163831.958_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163831.958,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163832.959_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163832.959,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163833.961_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163833.961,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163834.964_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163834.964,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163835.966_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163835.966,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163836.968_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163836.968,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163837.97_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163837.97,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163838.973_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163838.973,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163839.976_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163839.976,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163840.979_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163840.979,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163841.981_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163841.981,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163896.289_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163896.289,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163897.29_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163897.29,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163898.293_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163898.293,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163899.295_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163899.295,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163900.298_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163900.298,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163901.301_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163901.301,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163902.303_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163902.303,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163903.305_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163903.305,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163904.307_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163904.307,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163905.309_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163905.309,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163906.31_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163906.31,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163907.314_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163907.314,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513163908.317_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513163908.317,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164526.834_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164526.834,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164527.834_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164527.834,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164528.836_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164528.836,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164529.838_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164529.838,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164530.84_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164530.84,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164531.841_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164531.841,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164532.844_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164532.844,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164533.846_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164533.846,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164534.848_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164534.848,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164535.851_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164535.851,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164536.854_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164536.854,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164537.856_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164537.856,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164538.858_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164538.858,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164539.86_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164539.86,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164540.861_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164540.861,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164541.864_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164541.864,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164542.867_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164542.867,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164543.87_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164543.87,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164544.872_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164544.872,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164545.875_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164545.875,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164546.876_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164546.876,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164547.877_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164547.877,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164676.957_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164676.957,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164677.957_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164677.957,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164678.958_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164678.958,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164679.97_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164679.97,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164680.971_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164680.971,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164681.973_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164681.973,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164682.974_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164682.974,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164743.111_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164743.111,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164744.112_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164744.112,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164745.113_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164745.113,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164746.116_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164746.116,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164747.118_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164747.118,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164748.121_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164748.121,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164749.122_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164749.122,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164750.123_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164750.123,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164751.125_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164751.125,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164752.127_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164752.127,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164753.13_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164753.13,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164754.133_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164754.133,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164755.135_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164755.135,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164755.135_28ea7099d2db1c9a0a175cacdd002c41",
+
+    "task": "28ea7099d2db1c9a0a175cacdd002c41",
+    "timestamp": 1513164755.135,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164756.138_28ea7099d2db1c9a0a175cacdd002c41",
+
+    "task": "28ea7099d2db1c9a0a175cacdd002c41",
+    "timestamp": 1513164756.138,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164757.139_28ea7099d2db1c9a0a175cacdd002c41",
+
+    "task": "28ea7099d2db1c9a0a175cacdd002c41",
+    "timestamp": 1513164757.139,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164758.143_28ea7099d2db1c9a0a175cacdd002c41",
+
+    "task": "28ea7099d2db1c9a0a175cacdd002c41",
+    "timestamp": 1513164758.143,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164759.146_28ea7099d2db1c9a0a175cacdd002c41",
+
+    "task": "28ea7099d2db1c9a0a175cacdd002c41",
+    "timestamp": 1513164759.146,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164760.148_28ea7099d2db1c9a0a175cacdd002c41",
+
+    "task": "28ea7099d2db1c9a0a175cacdd002c41",
+    "timestamp": 1513164760.148,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164761.151_28ea7099d2db1c9a0a175cacdd002c41",
+
+    "task": "28ea7099d2db1c9a0a175cacdd002c41",
+    "timestamp": 1513164761.151,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164762.153_28ea7099d2db1c9a0a175cacdd002c41",
+
+    "task": "28ea7099d2db1c9a0a175cacdd002c41",
+    "timestamp": 1513164762.153,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164766.156_28ea7099d2db1c9a0a175cacdd00377e",
+
+    "task": "28ea7099d2db1c9a0a175cacdd00377e",
+    "timestamp": 1513164766.156,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164767.157_28ea7099d2db1c9a0a175cacdd00377e",
+
+    "task": "28ea7099d2db1c9a0a175cacdd00377e",
+    "timestamp": 1513164767.157,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164768.159_28ea7099d2db1c9a0a175cacdd00377e",
+
+    "task": "28ea7099d2db1c9a0a175cacdd00377e",
+    "timestamp": 1513164768.159,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164769.161_28ea7099d2db1c9a0a175cacdd00377e",
+
+    "task": "28ea7099d2db1c9a0a175cacdd00377e",
+    "timestamp": 1513164769.161,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164770.163_28ea7099d2db1c9a0a175cacdd00377e",
+
+    "task": "28ea7099d2db1c9a0a175cacdd00377e",
+    "timestamp": 1513164770.163,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164771.164_28ea7099d2db1c9a0a175cacdd00377e",
+
+    "task": "28ea7099d2db1c9a0a175cacdd00377e",
+    "timestamp": 1513164771.164,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164772.167_28ea7099d2db1c9a0a175cacdd00377e",
+
+    "task": "28ea7099d2db1c9a0a175cacdd00377e",
+    "timestamp": 1513164772.167,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164807.565_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164807.565,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164808.566_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164808.566,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164809.567_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164809.567,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164810.57_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164810.57,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164811.571_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164811.571,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513164812.572_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513164812.572,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513353215.914_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513353215.914,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513353216.915_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513353216.915,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513353217.916_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513353217.916,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513353218.917_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513353218.917,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513353219.921_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513353219.921,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513353220.924_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513353220.924,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513353221.926_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513353221.926,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513353222.927_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513353222.927,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513353223.931_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513353223.931,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513353224.933_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513353224.933,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513353225.934_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513353225.934,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513353226.935_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513353226.935,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "1513353227.938_28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "task": "28ea7099d2db1c9a0a175cacdd0024bf",
+    "timestamp": 1513353227.938,
+    "type": "logEntry",
+    "duration": 1000
+  },
+  {
+    "_id": "28ea7099d2db1c9a0a175cacdd000b37",
+
+    "type": "project",
+    "name": "Finastra"
+  },
+  {
+    "_id": "28ea7099d2db1c9a0a175cacdd0016e9",
+
+    "type": "project",
+    "name": "Personal"
+  },
+  {
+    "_id": "28ea7099d2db1c9a0a175cacdd0024bf",
+
+    "type": "task",
+    "name": "Prepare presentation for ITrend",
+    "project": "28ea7099d2db1c9a0a175cacdd000b37"
+  },
+  {
+    "_id": "28ea7099d2db1c9a0a175cacdd002c41",
+
+    "type": "task",
+    "name": "Prepare demo application",
+    "project": "28ea7099d2db1c9a0a175cacdd000b37"
+  },
+  {
+    "_id": "28ea7099d2db1c9a0a175cacdd003243",
+
+    "type": "task",
+    "project": "28ea7099d2db1c9a0a175cacdd0016e9",
+    "name": "Do the dishes"
+  },
+  {
+    "_id": "28ea7099d2db1c9a0a175cacdd00377e",
+
+    "type": "task",
+    "project": "28ea7099d2db1c9a0a175cacdd0016e9",
+    "name": "Groceries"
+  },
+  {
+    "_id": "_design/rxdemo",
+
+    "views": {
+      "tasks_by_project": {
+        "map": "function (doc) { if (doc.type === 'task') emit(doc.project, doc) }"
+      },
+      "projects": {
+        "map": "function (doc) { if (doc.type === 'project') emit(doc._id, doc) }"
+      },
+      "total_time_by_task": {
+        "map": "function (doc) { if (doc.type === 'logEntry') emit(doc.task, doc.duration) }",
+        "reduce": "function (key, values, rereduce) { return sum(values) }"
+      }
+    }
+  }
+]
+}

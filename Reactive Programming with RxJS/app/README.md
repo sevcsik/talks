@@ -1,10 +1,23 @@
 # \<rxjs-demo\>
 
-Demo app for ITrend talk on 
+Demo app for ITrend talk "Reactive Programming with RxJS" 
 
-## Install the Polymer-CLI
+## Prerequisites
 
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
+First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed.
+Then run `polymer serve` to serve your application locally.
+
+You'll also need CouchDB - install it from your distro's repository or visit their [official website]
+
+## Bootstrapping CouchDB
+
+Create database and upload the bootstrap document:
+
+```sh
+export COUCHDB_URI=http://localhost:5984
+curl -X PUT $COUCHDB_URI/rxdemo
+curl -X POST -d @couchdb_bulk.json -H "content-type: application/json" $COUCHDB_URI/rxdemo/_bulk_docs
+```
 
 ## Viewing Your Application
 
@@ -12,22 +25,4 @@ First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polyme
 $ polymer serve
 ```
 
-## Building Your Application
-
-```
-$ polymer build
-```
-
-This will create builds of your application in the `build/` directory, optimized to be served in production. You can then serve the built versions by giving `polymer serve` a folder to serve from:
-
-```
-$ polymer serve build/default
-```
-
-## Running Tests
-
-```
-$ polymer test
-```
-
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
+[official website]: https://couchdb.apache.org/
