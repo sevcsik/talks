@@ -12,7 +12,6 @@ export const projects$ = RxHttpRequest.get(`${API_ROOT}/projects`, { json: true 
 	.toArray()
 
 export const tasksByProject$ = p => RxHttpRequest.get(`${API_ROOT}/tasks_by_project?key="${p._id}"`, { json: true })
-	.do(console.log)
 	.flatMap(res => Observable.from(res.body.rows))
 	.pluck('value')
 	.toArray()

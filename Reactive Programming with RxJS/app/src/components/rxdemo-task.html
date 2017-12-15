@@ -28,7 +28,9 @@
 				this.name = null
 			}
 
-			connectedCallback() {
+			ready() {
+				super.ready()
+
 				this.name = this.content.name
 
 				getTotalTimeByTask$(this.content)

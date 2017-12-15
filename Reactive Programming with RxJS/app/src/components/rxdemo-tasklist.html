@@ -33,6 +33,11 @@
 			constructor() {
 				super()
 				this.projects = []
+			}
+
+			ready() {
+				super.ready()
+
 				projects$.subscribe(projects => { this.projects = projects })
 
 				activeScreen$

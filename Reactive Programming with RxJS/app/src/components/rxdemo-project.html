@@ -35,7 +35,8 @@
 				this.name = null
 			}
 
-			connectedCallback() {
+			ready() {
+				super.ready()
 				this.name = this.content.project.name
 				this.content.tasks$.subscribe(tasks => { this.tasks = tasks })
 

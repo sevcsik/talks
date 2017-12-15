@@ -35,5 +35,3 @@ export const activeTimer$ = Observable.from(activeTimerSubject)
 activeScreen$.subscribe(t => console.log('Active screen: ', t))
 activeTask$.subscribe(t => console.log('Active task: ', t))
 activeTimer$.subscribe(t => console.log('Active timer: ', t))
-
-console.log('hello')

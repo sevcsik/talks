@@ -22,8 +22,8 @@
 			<template is="dom-if" if="[[showTask]]">
 				<p>[[activeTask.name]]</p>
 				<p>
-					<a href="javascript:void(0)" start>Start</a>
-					<a href="javascript:void(0)" stop>Stop</a>
+					<a href="javascript:void(0)" id="start">Start</a>
+					<a href="javascript:void(0)" id="stop">Stop</a>
 				</p>
 			</template>
 			<template is="dom-if" if="[[running]]">
@@ -59,6 +59,10 @@
 				this.activeTask = null
 				this.showTask = null
 				this.running = null
+			}
+
+			ready() {
+				super.ready()
 
 				const isActive$ = activeScreen$
 					.map(screen => screen === 'clock')
@@ -76,14 +80,6 @@
 					.map(([isActive, activeTask]) => isActive && activeTask)
 					.subscribe(showTask => this.showTask = showTask)
 
-				const clicks$ = Observable.fromEvent(this, 'click')
-
-				bindTimerStartStream(clicks$
-					.filter(e => e.originalTarget.hasAttribute('start')))
-
-				bindTimerStopStream(clicks$
-					.filter(e => e.originalTarget.hasAttribute('stop')))
-
 				time$.combineLatest(activeTimer$)
 					.map(([t, activeTimer]) => ([t - activeTimer.since, activeTimer.running]))
 					.subscribe(([dt, running]) => {
@@ -92,6 +88,11 @@
 						this.minutes = formatTime(dt, 1)
 						this.hours = formatTime(dt, 2)
 					})
+
+				const clicks$ = Observable.fromEvent(this.shadowRoot, 'click')
+				bindTimerStartStream(clicks$.filter(e => e.target.id === 'start'))
+				bindTimerStopStream(clicks$.filter(e => e.target.id === 'stop'))
+
 			}
 		}
 
