@@ -124,6 +124,8 @@ export Observable.from(hashSubject$)
 - Fully reactive
 - It can log time to different tasks and switch between tasks
 
+.center[<img src="images/streams.svg" style="width: 80%">]
+
 ---
 
 ## That's all folks!
