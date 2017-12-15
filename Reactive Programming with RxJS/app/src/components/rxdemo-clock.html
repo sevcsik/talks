@@ -1,0 +1,101 @@
+<link rel="import" href="../../node_modules/@polymer/polymer/polymer-element.html">
+<link rel="import" href="../../node_modules/@polymer/polymer/lib/elements/dom-if.html">
+
+
+<dom-module id="rxdemo-clock">
+	<template>
+		<style>
+			:host {
+				display: inline-block;
+				float: right;
+				text-align: right;
+			}
+
+			:host(.active) {
+				display: block;
+				float: none;
+				font-size: 32px;
+				text-align: center;
+			}
+		</style>
+		<div>
+			<template is="dom-if" if="[[showTask]]">
+				<p>[[activeTask.name]]</p>
+				<p>
+					<a href="javascript:void(0)" id="start">Start</a>
+					<a href="javascript:void(0)" id="stop">Stop</a>
+				</p>
+			</template>
+			<template is="dom-if" if="[[running]]">
+				<a href="#clock">{{hours}}:{{minutes}}:{{seconds}}</a>
+			</template>
+		</div>
+	</template>
+
+	<script type="module">
+		import { time$ } from 'src/services/time.js'
+		import { activeScreen$
+		       , activeTask$
+		       , activeTimer$
+		       , bindTimerStartStream
+		       , bindTimerStopStream
+		       } from 'src/services/state.js'
+
+		import { Observable } from 'node_modules/rxjs/bundles/Rx.js'
+
+		const formatTime = (t, m) => Math.floor(t / Math.pow(60, m)) % 60
+
+		/**
+		 * @customElement
+		 * @polymer
+		 */
+		class RxdemoClock extends Polymer.Element {
+			static get is() { return 'rxdemo-clock' }
+
+			constructor() {
+				super();
+
+				this.hours = this.minutes = this.seconds = null
+				this.activeTask = null
+				this.showTask = null
+				this.running = null
+			}
+
+			ready() {
+				super.ready()
+
+				const isActive$ = activeScreen$
+					.map(screen => screen === 'clock')
+				
+				isActive$.subscribe(active => { 
+					this.active = active
+					if (active) this.classList.add('active')
+					else this.classList.remove('active')
+				})
+
+				activeTask$
+					.subscribe(t => this.activeTask = t)
+
+				Observable.combineLatest(isActive$, activeTask$)
+					.map(([isActive, activeTask]) => isActive && activeTask)
+					.subscribe(showTask => this.showTask = showTask)
+
+				time$.combineLatest(activeTimer$)
+					.map(([t, activeTimer]) => ([t - activeTimer.since, activeTimer.running]))
+					.subscribe(([dt, running]) => {
+						this.running = running
+						this.seconds = formatTime(dt, 0)
+						this.minutes = formatTime(dt, 1)
+						this.hours = formatTime(dt, 2)
+					})
+
+				const clicks$ = Observable.fromEvent(this.shadowRoot, 'click')
+				bindTimerStartStream(clicks$.filter(e => e.target.id === 'start'))
+				bindTimerStopStream(clicks$.filter(e => e.target.id === 'stop'))
+
+			}
+		}
+
+		window.customElements.define(RxdemoClock.is, RxdemoClock)
+	</script>
+</dom-module>

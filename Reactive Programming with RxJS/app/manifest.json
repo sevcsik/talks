@@ -1,0 +1,7 @@
+{
+  "name": "rxjs-demo",
+  "short_name": "rxjs-demo",
+  "description": "Demo app for ITrend talk on ",
+  "start_url": "/",
+  "display": "standalone"
+}

@@ -1,0 +1,53 @@
+<link rel="import" href="../../node_modules/@polymer/polymer/polymer-element.html">
+<link rel="import" href="../../node_modules/@polymer/polymer/lib/elements/dom-repeat.html">
+<link rel="import" href="rxdemo-project.html">
+
+<dom-module id="rxdemo-tasklist">
+	<template>
+		<style>
+			:host(.hidden) {
+				display: none;
+			}
+		</style>
+		<h1>Tasks</h1>
+		<ul>
+			<template is="dom-repeat" items="[[projects]]">
+				<li>
+					<rxdemo-project content="[[item]]"></rxdemo-project>
+				</li>
+			</template>
+		</ul>
+	</template>
+
+	<script type="module">
+		import { activeScreen$ } from 'src/services/state.js'
+		import { projects$ } from 'src/services/tasks.js'
+
+		 /*
+		  * @customElement
+		  * @polymer
+		  */
+		class RxdemoTasklist extends Polymer.Element {
+			static get is() { return 'rxdemo-tasklist' }
+
+			constructor() {
+				super()
+				this.projects = []
+			}
+
+			ready() {
+				super.ready()
+
+				projects$.subscribe(projects => { this.projects = projects })
+
+				activeScreen$
+					.subscribe((screen) => {
+						if (screen === 'tasks') this.classList.remove('hidden')
+						else this.classList.add('hidden')
+					})
+			}
+		}
+
+		window.customElements.define(RxdemoTasklist.is, RxdemoTasklist)
+	</script>
+</dom-module>
